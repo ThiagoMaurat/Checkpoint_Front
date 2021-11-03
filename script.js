@@ -1,23 +1,24 @@
-let ir = document.getElementById("Teste");
-let input12 = document.getElementById("input1");
-let input22 = document.getElementById("input2");
-let input32 = document.getElementById("input3");
-let articlezin = document.createElement("article");
-let h2zin = document.createElement("h2");
-let pzin = document.createElement("p");
-let imgzin = document.createElement("img");
+let ir = document.querySelector("Section");
+let input1 = document.getElementById("input1");
+let input2 = document.getElementById("input2");
+let input3 = document.getElementById("input3");
 let botaozin = document.getElementById("botao");
 
 document.querySelector("#botao").addEventListener("click", function () {
-  h2zin.innerHTML = input12.value;
-    ir.appendChild(articlezin);
-  articlezin.appendChild(h2zin);
-  articlezin.appendChild(pzin);
-  articlezin.appendChild(imgzin);
+    let articlezin = document.createElement("article");
+    let h2zin = document.createElement("h2");
+    let pzin = document.createElement("p");
+    let imgzin = document.createElement("img");
 
-//   h2zin.innerHTML = input12.value;
-//   pzin.innerHTML = input22.value;
-//   imgzin.src = input32.value;
-//   imgzin.alt = input32.value;
-  console.log("wefwef");
+    ir.appendChild(articlezin);
+
+    h2zin.innerHTML = input1.value;
+    articlezin.appendChild(h2zin);
+
+    pzin.innerHTML = input2.value;
+    articlezin.appendChild(pzin);
+
+    imgzin.setAttribute("src", input3.value);
+    articlezin.appendChild(imgzin);
+    console.log("wefwef");
 });
