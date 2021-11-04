@@ -80,7 +80,8 @@ article {
   align-items: center;
   justify-content: center;
   text-align: center;
-  height: calc(95vh/3);
+    height: calc(95vh/3);
+    padding: 10px;
 }
 
 @media screen and (max-width: 1000px) {

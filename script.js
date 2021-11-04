@@ -20,6 +20,7 @@ document.querySelector("#botao").addEventListener("click", function (event) {
   console.log("wefwef");
   articlezin.style.width = "26,5vw"
   imgzin.style.width = "80%";
+  imgzin.style.height = "80%";
   
 });
 
