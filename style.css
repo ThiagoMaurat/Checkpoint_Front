@@ -4,6 +4,15 @@
   border: 0;
   margin: 0;
 }
+
+#Paizao{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 6px;
+}
+
 aside {
   display: flex;
   flex-direction: column;

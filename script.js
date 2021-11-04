@@ -30,5 +30,4 @@ document.querySelector("#apagar").addEventListener("click", (event) => {
     let articlezin = document.getElementsByTagName("article");
     console.log(articlezin);
     ir.removeChild(articlezin[articlezin.length - 1]);
-
 });
