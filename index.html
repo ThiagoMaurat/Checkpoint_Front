@@ -17,7 +17,8 @@
           <input id="input1" type="text" name="" placeholder="Título" />
           <input id="input2" type="text" name="" placeholder="Descrição" />
           <input id="input3" type="text" value="" placeholder="Url da imagem" />
-          <div id="Paizao">
+          <fieldset id="paizao">
+            <legend>Continente</legend>
             <div>
               <input type="radio" name="América" id="" />
               <label for="América">América</label>
@@ -38,18 +39,20 @@
               <input type="radio" name="África" id="" />
               <label for="África">África</label>
             </div>
-          </div>
-          <div id = "Checkzin">
+          </fieldset>
+          <fieldset id = "checkzin">
+            <legend>Já visitou?</legend>
             <div>
-              <label for="Visitou">Já visitou?</label>
+              <div>
+                <input type="checkbox" name="Visitou" id="" />
+                <label for="">Sim</label>
+              </div>
+              <div>
+                <input type="checkbox" name="Visitou" id="" />
+                <label for="">Não</label>
+              </div>
             </div>
-            <div>
-              <input type="checkbox" name="Visitou" id="" />
-              <label for="">Sim</label>
-              <input type="checkbox" name="Visitou" id="" />
-              <label for="">Não</label>
-            </div>
-          </div>
+          </fieldset>
           <div id="alinhar">
             <button id="botao">Submit</button>
             <button id="apagar">Apague Último</button>
