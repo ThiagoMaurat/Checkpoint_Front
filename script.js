@@ -38,9 +38,12 @@ document.querySelector("#botao").addEventListener("click", function (event) {
   articlezin.style.width = "26,5vw"
   imgzin.style.width = "80%";
   imgzin.style.height = "80%";
-  
-
+  resetInput();
 });
+
+const resetInput = () => {
+  const form = document.querySelector("form").reset();
+};
 
 
 document.querySelector("#apagar").addEventListener("click", (event) => {
