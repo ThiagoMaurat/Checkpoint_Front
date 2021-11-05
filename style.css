@@ -39,6 +39,7 @@ aside {
   height: 95vh;
 }
 
+
 fieldset {
   border: 1px solid #cccccc;
   border-radius: 5px;
@@ -126,7 +127,6 @@ article {
   text-align: center;
   height: calc(95vh/3);
   padding: 10px;
-  /* margin: 0 0 10px; */
   border-radius: 5px;
 }
 
