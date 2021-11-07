@@ -106,7 +106,9 @@ main {
   width: 100%;
   text-align: center;
   padding-top: 166px;
-  background-color: #D4ECF6;
+/*   background-color: #D4ECF6; */
+/*   background-image: linear-gradient(180deg, #ffffff 0, #D4ECF6 100%); */
+  
 }
 
 section {
@@ -115,6 +117,9 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
   align-items: start;
   justify-items: center;
+  background-image: linear-gradient(180deg, #ffffff 0, #D4ECF6 100%);
+  background-size: cover;
+  
 }
 
 form {
@@ -165,7 +170,7 @@ article {
   flex-direction: column;
   align-items: center;
   border: #d9f2fc solid 1px;
-  background-color: #F1F9FC;
+  background-color: #6A776D;
   height: 95%;
   width: 85%;
   align-items: center;
@@ -179,8 +184,8 @@ article {
 
 article div{
   overflow: hidden;
-  width: 15vw;
-  height: 16vh;
+  width: 19vw;
+  height: 19vh;
   overflow: hidden;
   border-radius: 10px;
   margin-top: 10px;
@@ -196,10 +201,23 @@ article div img{
   transition: all 0.5s ease;
 }
 
+
 article div img:hover{
   transform: scale(1.05);
   filter: brightness(100%);
 }
+article h2{
+  color: #ffffff;
+
+}
+
+article p{
+  font-size: 16px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 5px;
+}
+
 
 @media screen and (max-width: 1280px) {
   section {
@@ -219,6 +237,12 @@ article div img:hover{
 }
 
 @media screen and (max-width: 650px) {
+  h2{
+    font-size: 20px;
+  }
+  p {
+    font-size: 12px;
+  }
   main {
     grid-template-columns: 1fr;
 
