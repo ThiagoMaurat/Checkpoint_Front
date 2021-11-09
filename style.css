@@ -71,6 +71,7 @@ aside {
   text-align: center;
   border: #d9f2fc solid 1px;
   border-radius: 5px;
+  overflow: auto;
 }
 
 fieldset {
